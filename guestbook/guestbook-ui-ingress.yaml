@@ -16,3 +16,13 @@ spec:
               number: 80
         path: /
         pathType: Prefix
+  - host: guestbook.localdev.me
+    http:
+      paths:
+      - backend:
+          service:
+            name: demo
+            port:
+              number: 80
+        path: /demo
+        pathType: Prefix
