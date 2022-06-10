@@ -13,6 +13,6 @@ spec:
           service:
             name: guestbook-ui
             port:
-              number: 8081
+              number: 80
         path: /
         pathType: Prefix
